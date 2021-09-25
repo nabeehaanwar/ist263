@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-a">
+        <title>Unit 4 Form</title>
+    </head>
+    <body>
+        <!-- mailto form: opens up email and tries to send email with all the information (gives you every name of field and what the user typed in)-->
+        <form action="mailto:nanwar01@syr.edu" method="POST">
+            <!-- labels are associated with form tags by the value in the for attribute in label, and the id attribute in the form tag. -->
+            
+            <!-- text input (name, etc.) -->
+            <label for="fullname">Enter Full Name:</label>
+            <input type="text" id="fullname" name="fname"><br>
+
+            <!-- text area -->
+            <label for="complaint">Describe Your Complaint:</label>
+            <textarea id="complaint" name="complaint">Enter your complaint here.</textarea> <!-- white space matters here! -->
+            <!-- radio buttons are linked together using the same value for name. ALL THE LABELS for attribute values MUST BE UNIQUE. -->
+            <br>
+            <p>How angry are you?</p>
+            <input type="radio" id="angry1" name="angry" value="very angry">
+            <label for="angry1">VERY ANGRY!</label>
+            <br>
+            <input type="radio" id="angry2" name="angry" value="not too angry">
+            <label for="angry2">Not too angry.</label>
+            <br>
+            <!-- select box -->
+            <label for="contactmethod">How would you like to be contacted?</label>
+            <select id="contactmethod" name="contactmethod">
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+                <option value="snail mail">Snail Mail</option>
+            </select>
+            <br>
+            <!-- checkbox -->
+            <label for="contacttime">Can we contact you at night?</label>
+            <input type="checkbox" id="contacttime" name="contacttime" value="yes"><br>
+             <!-- submit button -->
+            <input type="submit" value="Send My Complaint">
+
+        </form>
+
+    </body>
+</html>
