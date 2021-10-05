@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Week 5 Notes</title>
+        <link rel="stylesheet" href="week6styles.css">
+        <!-- <style> is an embedded style sheet, no html goes in there-->
+    </head>
+    <body>
+        <h1>Week 6</h1>
+        <h2>Sub Heading</h2>
+        <p>Hello World!</p>
+        <p>Hello World - we are orange <a href="http://www.syr.edu">Orange</a>.
+        </p>
+        <a href="http://www.google.com">Google</a>
+    </body>
+</html>

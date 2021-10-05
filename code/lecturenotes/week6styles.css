@@ -1,0 +1,26 @@
+h1 {
+    color:darkslategrey;
+    letter-spacing: 0.3em;
+}
+
+p {
+    color:darkred;
+    font-weight: bolder;
+}
+body {
+    color:deeppink;
+    font-family:'Courier New', Courier, monospace;
+}
+h1, h2 {
+    font-size: 400%;
+    /* This is a group selector - It will style both headings */
+}
+
+p a {
+    color:orange;
+    /* only styling links inside p tag*/
+}
+/* CSS comments are done with a slash and asterik 
+the maroon only gets applied to h2 because p and h1 have their own colors 
+
+*/
