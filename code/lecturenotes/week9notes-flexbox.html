@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Part 2</title>
+    <style>
+        div{
+            background-color: black;
+            color: orange;
+        }
+        .row1 {
+            display: flex;
+            padding: 5px;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+        .row1 div {padding: 5px;}
+        .row2 {
+            display: flex;
+            padding: 5px;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .row3 {
+            display: flex;
+            padding: 5px;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .outerflexbox {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+
+        .socialflexbox {
+            display: flex;
+        }
+
+        .navflexbox {
+            display:flex;
+        }
+
+        .navflexbox div, .socialflexbox div {padding:5px;}
+
+    </style>
+</head>
+<body>
+    <p>This nav is justified right.</p>
+     <div class="row1">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <p>This nav has space around.</p>
+    <div class="row2">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <p>This nav has space between.</p>
+    <div class="row3">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <p>This is our split nav.</p>
+    <div class="outerflexbox">
+            <div class="navflexbox">
+                <div>Home</div>
+                <div>About Us</div>
+                <div>Products</div>
+                <div>Contact</div>
+            </div>
+            <div class="socialflexbox">
+                <div>Facebook</div>
+                <div>Twitter</div>
+            </div>
+    </div>
+
+    <p></p>
+    
+
+</body>
+</html>
