@@ -1,5 +1,9 @@
 /*global*/
 
+
+   
+ 
+
 @font-face {
     font-family: "Playfair Display";
     src: url("PlayfairDisplay-VariableFont_wght.ttf");
@@ -66,6 +70,7 @@ h4 {
 } 
 
 nav {
+    
     display: flex;
     font-size: 1em;
     justify-content: center; /* fix spacing between nav bar */
