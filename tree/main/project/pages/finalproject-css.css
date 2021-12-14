@@ -160,9 +160,9 @@ footer {
     float: left;
     margin: 20px;
     margin-left: 50px;
-    padding: 50px;
+    padding: 20px;
     margin-bottom: 40px;
-    width: 40%;
+    width: 55%;
     
 }
 
@@ -176,7 +176,9 @@ footer {
     border-radius: 3em;
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 25%;
+    margin-top: 220px;
+    font-size: 30px;
 
 }
 
@@ -199,7 +201,7 @@ footer {
     padding: 10px;
     margin: 50px;
     margin-bottom: 30px;
-
+   
     
 }
 
