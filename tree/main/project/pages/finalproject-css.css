@@ -174,7 +174,7 @@ footer {
     border-radius: 3em;
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 30%;
     margin-top: 140px;
     font-size: 20px;
 
@@ -200,11 +200,12 @@ footer {
 .video-container {
     overflow: hidden;
     position: relative;
-    width:50%;
+    width:40%;
     float: left;
     padding: 10px;
     margin-left: 95px;
     margin-bottom: 100px;
+    margin-top: 100px;
     
 
 }
@@ -297,7 +298,7 @@ footer {
 
     float: right;
     margin: 20px;
-    margin-left: 50px;
+    margin-right: 50px;
     padding: 20px;
     margin-bottom: 40px;
     margin-top: 150px;
@@ -433,3 +434,7 @@ footer {
     /* For mobile phones: */
     .main {width: 100%;}
 }
+
+
+
+    
