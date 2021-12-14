@@ -158,11 +158,9 @@ footer {
 
 .lifestyleimage1 {
     float: left;
-    margin: 20px;
-    margin-left: 50px;
-    padding: 20px;
+    margin-left: 150px;
     margin-bottom: 40px;
-    width: 55%;
+    width: 35%;
     
 }
 
@@ -171,14 +169,14 @@ footer {
     
     background-color: #f8edeb;
     padding: 70px;
-    margin: 50px;
+    margin: 60px;
     float: right;
     border-radius: 3em;
     display: flex;
     flex-wrap: wrap;
-    width: 25%;
-    margin-top: 220px;
-    font-size: 30px;
+    width: 40%;
+    margin-top: 140px;
+    font-size: 20px;
 
 }
 
@@ -192,6 +190,8 @@ footer {
     border-radius: 3em;
     display: flex;
     flex-wrap: wrap;
+    font-size: 20px;
+    margin-top: 80px;
     
 
 }
@@ -200,7 +200,7 @@ footer {
     float: left;
     padding: 10px;
     margin: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
    
     
 }
@@ -217,12 +217,13 @@ footer {
 .story {
     
     background-color: #f8edeb;
-    padding: 30px;
+    padding: 70px;
     margin: 80px;
     float: right;
     border-radius: 3em;
     display: flex;
     flex-wrap: wrap;
+    font-size: 20px;
 }
 
 
@@ -410,8 +411,8 @@ footer {
 
 @media only screen and (max-width: 400px) {
     .main, .story, .description, .intro { 
-        width: 50%;
-        padding: 0;} 
+        width: 60%;
+        padding: 80px;} 
 }
 
 @media only screen and (max-width:500px) {
