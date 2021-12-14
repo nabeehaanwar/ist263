@@ -186,7 +186,7 @@ footer {
     padding: 70px;
     margin: 50px;
     float: right;
-    width: 40%;
+    width: 30%;
     border-radius: 3em;
     display: flex;
     flex-wrap: wrap;
@@ -196,22 +196,31 @@ footer {
 
 }
 
-.video {
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:50%;
     float: left;
     padding: 10px;
-    margin: 50px;
+    margin-left: 95px;
     margin-bottom: 100px;
-   
     
+
 }
 
-.videocaption {
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
 
-    display: flex;
-    border-radius: 3em;
-    font-weight: bolder;
-    line-height: 20px;
-    justify-content: center;
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .story {
