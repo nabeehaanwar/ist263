@@ -404,7 +404,7 @@ footer {
 
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:530px) {
     /* For mobile phones: */
     .rainydayimg, .homeimg, .nightinimg, .laughimg, .motivationimg, .unwindimg {
         width: 80%;
@@ -434,7 +434,7 @@ footer {
 }
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:530px) {
     
     .intro, .story, .description {
         padding: 30px;
