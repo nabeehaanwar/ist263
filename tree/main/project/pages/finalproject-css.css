@@ -19,6 +19,9 @@
             src: url("Barlow-Thin.ttf");
             }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
    
@@ -103,8 +106,9 @@ nav a {
 
 
 a {
- 
-    color:#702743;
+    text-decoration: none;
+    color: #000000;
+    
 }
 
 
@@ -161,6 +165,7 @@ footer {
     margin-left: 150px;
     margin-bottom: 40px;
     width: 35%;
+    position: sticky;
     
 }
 
@@ -258,8 +263,8 @@ footer {
 .heading {
     display: flex;
     justify-content: center;
-    font-size: 110%;
-    margin-bottom: 200px;
+    font-size: 80%;
+    margin-bottom: 80px;
     margin-top: 100px;
     background-color: #f8edeb;
     padding: 20px;
@@ -270,155 +275,128 @@ footer {
 }
 
 
-.rainydayimage {
-
+.rainydayimg {
+    margin-left: 80px;
+    width: 50%;
     float: left;
-    margin: 20px;
-    margin-left: 50px;
-    padding: 20px;
-    margin-bottom: 40px;
-    width: 40%;
-
 }
 
-.rainyday {
-
-    background-color: #f8edeb;
-    padding: 90px;
-    margin: 50px;
+.rainydaytxt {
     float: right;
-    width: 30%;
+    position: sticky;
+    width: 20%;
+    margin: 70px;
+    margin-right: 200px;
+    background-color: #f8edeb;
     border-radius: 3em;
-    margin-top: 150px;
-    margin-bottom: 40px;
-
+    padding: 40px;
 }
 
-.home {
-
+.homeimg {
+    margin-right: 80px;
+    margin-top: 120px;
+    width: 50%;
     float: right;
-    margin: 20px;
-    margin-right: 50px;
-    padding: 20px;
-    margin-bottom: 40px;
-    margin-top: 150px;
-    width: 40%;
 }
 
-.missinghome {
-
-    background-color: #f8edeb;
-    padding: 90px;
-    margin: 50px;
+.missinghometxt {
     float: left;
-    width: 30%;
-    border-radius: 3em;
-    margin-top: 150px;
-    margin-bottom: 40px;
-
-}
-
-
-.bestfriend {
-
-    float: left;
-    margin: 20px;
-    margin-left: 50px;
-    padding: 20px;
-    margin-bottom: 40px;
-    margin-top: 150px;
-    width: 40%;
-
-}
-
-.nightin {
-
+    position: sticky;
+    width: 20%;
+    margin: 70px;
+    margin-left: 200px;
     background-color: #f8edeb;
-    padding: 90px;
-    margin: 50px;
-    float: right;
-    width: 30%;
     border-radius: 3em;
-    margin-top: 150px;
-    margin-bottom: 40px;
-
+    padding: 40px;
+    margin-top: 200px;
 }
 
+.nightinimg {
+    margin-left: 80px;
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
 
-.unwindimage {
+.nightintxt {
 
     float: right;
-    margin: 20px;
-    margin-left: 50px;
-    padding: 20px;
-    margin-bottom: 40px;
-    margin-top: 150px;
-    width: 40%;
-
-}
-
-.unwind {
-
+    position: sticky;
+    width: 20%;
+    margin: 70px;
+    margin-right: 200px;
     background-color: #f8edeb;
-    padding: 90px;
-    margin: 50px;
-    float: left;
-    width: 30%;
     border-radius: 3em;
-    margin-top: 150px;
-    margin-bottom: 40px;
+    padding: 40px;
+    margin-top: 200px;
 
 }
 
-.laughimage {
 
-    float: left;
-    margin: 20px;
-    margin-right: 50px;
-    padding: 20px;
-    margin-bottom: 40px;
-    margin-top: 150px;
-    width: 40%;
-
-}
-
-.laugh {
-
-    background-color: #f8edeb;
-    padding: 90px;
-    margin: 50px;
+.laughimg {
+    margin-right: 80px;
+    width: 50%;
     float: right;
-    width: 30%;
-    border-radius: 3em;
-    margin-top: 150px;
-    margin-bottom: 40px;
-
+    margin-top: 120px;
 }
 
-.motivationimage {
-
-  
-    float: right;
-    margin: 20px;
-    margin-left: 50px;
-    padding: 20px;
-    margin-bottom: 40px;
-    margin-top: 150px;
-    width: 40%;
-}
-
-.motivation {
-
-    background-color: #f8edeb;
-    padding: 90px;
-    margin: 50px;
+.laughtxt {
     float: left;
-    width: 30%;
+    position: sticky;
+    width: 20%;
+    margin: 70px;
+    margin-left: 200px;
+    background-color: #f8edeb;
     border-radius: 3em;
-    margin-top: 150px;
-    margin-bottom: 40px;
+    padding: 40px;
+    margin-top: 200px;
 
 }
+.unwindimg {
+    margin-left: 80px;
+    width: 50%;
+    float: left;
+    margin-top: 120px;
+}
+
+.unwindtxt {
+
+    float: right;
+    position: sticky;
+    width: 20%;
+    margin: 70px;
+    margin-right: 200px;
+    background-color: #f8edeb;
+    border-radius: 3em;
+    padding: 40px;
+    margin-top: 200px;
+}
+
+.motivationimg {
+    margin-right: 80px;
+    width: 50%;
+    float: right;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.motivationtxt {
+
+    float: right;
+    position: sticky;
+    width: 20%;
+    margin: 70px;
+    margin-right: 200px;
+    background-color: #f8edeb;
+    border-radius: 3em;
+    padding: 40px;
+    margin-top: 200px;
+
+}
+
+
+
+
 
 
 
@@ -437,4 +415,46 @@ footer {
 
 
 
+@media only screen and (max-width:320px) {
+    /* For mobile phones: */
+    .rainydayimg, .homeimg, .nightinimg, .laughimg, .motivationimg, .unwindimg {
+        width: 80%;
+        margin-left: 30px;
+     
+    }
+    .rainydaytxt, .missinghometxt, .nightintxt, .laughtxt, .motivationtxt, .unwindtxt  {
+        width: 50%;
+        margin: auto;
+    }
+
     
+}
+
+@media only screen and (max-width:1449px) {
+    /* For mobile phones: */
+    .rainydayimg, .homeimg, .nightinimg, .laughimg, .motivationimg, .unwindimg{
+        width: 65%;
+        margin-left: 60px;
+       
+    }
+    .rainydaytxt, .missinghometxt, .nightintxt, .laughtxt, .motivationtxt, .unwindtxt {
+        width: 50%;
+        margin: 45px;
+        margin-right: 60px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1187px) {
+    /* For mobile phones: */
+    .lifestyleimage1{width: 40%;
+    margin: 30px;
+    margin-left: 90px;}
+    .intro {
+        width: 30%;
+        margin: 30px;
+    }
+}
