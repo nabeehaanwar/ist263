@@ -409,13 +409,90 @@ footer {
 }
 
 
+/* contact form */
 
+
+.thanks {
+
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 120px;
+    padding: 70px;
+    background-color:#f8edeb;
+    border-radius: 3em;
+    margin-bottom: 100px;
+}
+
+.feedback-input {
+    background-color:#f8edeb;
+    color: #000000;
+    font-family: "Barlow Regular";
+    font-size: 18px;
+    border-radius: 2em;
+    line-height: 22px;
+    border:2px solid #331f1f;
+    transition: all 0.3s;
+    padding: 15px;
+    margin-bottom: 15px;
+    width:50%;
+    box-sizing: border-box;
+    outline:0;
+    margin-left: 480px;
+    margin-top: 20px;
+  }
+  
+  .feedback-input:focus { border:2px solid #CC4949; }
+  
+  textarea {
+    height: 300px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  .submit {
+    font-family: "Barlow Regular";
+    width: 50%;
+    background:#663939;
+    border-radius:4em;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top: 30px;
+    margin-left: 480px;
+
+
+  }
+  [type="submit"]:hover { background:#df8383; }
 
 
 
 
 /* responsive design */
 
+@media only screen and (max-width:530px) {
+    /* For mobile phones: */
+
+
+    .thanks{
+        width: 50%;
+        font-size: 15px;
+        margin-left: 60px;
+     
+    }
+
+    .submit, textarea, .feedback-input{
+        width: 70%;
+        margin-left: 80px;
+        margin-top: -5px;
+    }
+
+    
 
 
 @media only screen and (max-width:530px) {
@@ -469,4 +546,5 @@ footer {
 
 
 
+}
 }
